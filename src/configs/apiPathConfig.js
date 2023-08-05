@@ -1,0 +1,1 @@
+export const API_PATH='https://animated-palm-tree-gp5q7xj5vxrh6x7-8080.app.github.dev/'

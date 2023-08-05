@@ -2,11 +2,21 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.reg_box{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+  padding: 5px;
+  border: 1px solid black;
 }
-
+input,select,button{
+  margin: 5px;
+  height: 30px;
+}
+button:hover{
+  cursor: pointer;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
